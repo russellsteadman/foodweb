@@ -1,0 +1,30 @@
+{
+  "name": "foodweb",
+  "version": "1.0.0-alpha1",
+  "description": "Easily access open source food and nutritional data from the USDA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamtofu/foodweb.git"
+  },
+  "keywords": [
+    "food",
+    "nutrition",
+    "nutrient",
+    "facts",
+    "calorie",
+    "usda",
+    "json",
+    "open",
+    "source"
+  ],
+  "author": "Russell Steadman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamtofu/foodweb/issues"
+  },
+  "homepage": "https://github.com/teamtofu/foodweb#readme"
+}
