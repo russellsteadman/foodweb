@@ -2,3 +2,4 @@
 converter
 .gitignore
 db
+node_modules
