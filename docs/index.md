@@ -1,6 +1,6 @@
 # foodWeb
 
-foodWeb is an open source project that makes it simple to access the USDA's [Nutrient Standard Reference Database](https://www.ars.usda.gov/northeast-area/beltsville-md/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/sr28-download-files/).
+foodWeb is an open source project that makes it simple to access the USDA's [Nutrient Standard Reference Database](https://iapreview.ars.usda.gov/Services/docs.htm?docid=8964).
 
 ## Installation
 
