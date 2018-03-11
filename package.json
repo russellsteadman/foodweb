@@ -1,15 +1,17 @@
 {
   "name": "foodweb",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0",
   "description": "Easily access open source food and nutritional data from the USDA.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": "https://github.com/teamtofu/foodweb.git",
+  "homepage": "https://food.js.org/",
+  "author": "Russell Steadman <russell@unatetra.com> (https://teamtofu.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamtofu/foodweb/issues",
+    "email": "russell@unatetra.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teamtofu/foodweb.git"
-  },
+  "private": false,
   "keywords": [
     "food",
     "nutrition",
@@ -21,14 +23,18 @@
     "open",
     "source"
   ],
-  "author": "Russell Steadman",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/teamtofu/foodweb/issues"
-  },
-  "homepage": "https://github.com/teamtofu/foodweb#readme",
+  "reveal": true,
   "dependencies": {
-    "es6-promise": "^4.1.0",
-    "isomorphic-fetch": "^2.2.1"
+    "lunr": "^2.1.6"
+  },
+  "scripts": {
+    "build": "cd raw && python go.py && node indexer.js",
+    "webpack": "webpack --config test/client/webpack.config.js",
+    "example": "webpack --config docs/example/client/webpack.config.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
   }
 }

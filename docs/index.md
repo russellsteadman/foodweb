@@ -73,7 +73,63 @@ A `foodItem` object containing all of the information about the item.
 
 ### foodItem
 
-This contains all of the information from the database including calories, nutrient makeup, and serving sizes. Read the [full documentation here](https://food.js.org/) to learn more.
+The `foodItem` has children for all data about the item.
+
+#### Children
+
+* **ndb** 5-digit Nutrient Databank number that uniquely identifies a food item
+* **title** Abbreviated description of food item
+* **water** Water (N) 10.2 Water (g/100 g)
+* **kcal** Food energy (kcal/100 g)
+* **protein** Protein (g/100 g)
+* **lipidTotal** Total lipid (fat) (g/100 g)
+* **ash** Ash (g/100 g)
+* **carb** Carbohydrate, by difference (g/100 g)
+* **fiberTotalDietary** Total dietary fiber (g/100 g)
+* **sugarTotal** Total sugars (g/100 g)
+* **elCa** Calcium (mg/100 g)
+* **elFe** Iron (mg/100 g)
+* **elMg** Magnesium (mg/100 g)
+* **elP** Phosphorus (mg/100 g)
+* **elK** Potassium (mg/100 g)
+* **elNa** Sodium (mg/100 g)
+* **elZn** Zinc (mg/100 g)
+* **elCu** Copper (mg/100 g)
+* **elMa** Manganese (mg/100 g)
+* **elSe** Selenium (μg/100 g)
+* **vitaminC** Vitamin C (mg/100 g)
+* **thiamin** Thiamin (mg/100 g)
+* **riboflavin** Riboflavin (mg/100 g)
+* **niacin** Niacin (mg/100 g)
+* **pantothenicAcid** Pantothenic acid (mg/100 g)
+* **vitaminB6** Vitamin B6 (mg/100 g)
+* **folateTotal** Folate, total (μg/100 g)
+* **folicAcid** Folic acid (μg/100 g)
+* **foodFolate** Food folate (μg/100 g)
+* **dietaryFolate** Folate (μg dietary folate equivalents/100 g)
+* **cholineTotal** Choline, total (mg/100 g)
+* **vitaminB12** Vitamin B12 (μg/100 g)
+* **vitaminAIU** Vitamin A (IU/100 g)
+* **vitaminA** Vitamin A (μg retinol activity equivalents/100g)
+* **retinol** Retinol (μg/100 g)
+* **alphaCarotene** Alpha-carotene (μg/100 g)
+* **betaCarotene** Beta-carotene (μg/100 g)
+* **betaCryptoxanthin** Beta-cryptoxanthin (μg/100 g)
+* **lycopene** Lycopene (μg/100 g)
+* **luteinZeazanthin** Lutein+zeazanthin (μg/100 g)
+* **vitaminE** Vitamin E (alpha-tocopherol) (mg/100 g)
+* **vitaminD** Vitamin D (μg/100 g)
+* **vitaminDIU** Vitamin D (IU/100 g)
+* **vitaminK** Vitamin K (phylloquinone) (μg/100 g)
+* **saturatedFat** Saturated fatty acid (g/100 g)
+* **monounsaturatedFat** Monounsaturated fatty acids (g/100 g)
+* **polyunsaturatedFat** Polyunsaturated fatty acids (g/100 g)
+* **cholesterol** Cholesterol (mg/100 g)
+* **primaryWeight** First household weight
+* **primaryWeightDesc** Description of household weight number 1
+* **secondaryWeight** Second household weight
+* **secondaryWeightDesc** Description of household weight number 2
+* **refuse** Percent refuse
 
 ## License
 

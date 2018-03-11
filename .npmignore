@@ -1,5 +1,7 @@
-.history
-converter
+/.history
+/node_modules
 .gitignore
-db
-node_modules
+
+/raw
+names.json
+/docs
