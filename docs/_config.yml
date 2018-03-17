@@ -1,6 +1,18 @@
 title: foodWeb | Open Source JavaScript Documentation
-description: foodWeb is an open source project that makes it simple to access the USDA's Nutrient Standard Reference Database.
-show_downloads: true
-theme: jekyll-theme-slate
-author: Russell Steadman
+email: e8a7d812@opayq.com
 author_email: e8a7d812@opayq.com
+show_downloads: true
+description: > # this means to ignore newlines until "baseurl:"
+  foodWeb is an open source project that makes it simple to access the USDA's Nutrient Standard Reference Database.
+baseurl: ""
+url: "https://food.js.org"
+author: Russell Steadman
+logo: /favicon.png
+
+markdown: kramdown
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
