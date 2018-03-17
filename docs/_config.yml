@@ -8,6 +8,7 @@ baseurl: ""
 url: "https://food.js.org"
 author: Russell Steadman
 logo: /favicon.png
+google_analytics: UA-72546719-14
 
 markdown: kramdown
 theme: jekyll-theme-slate
